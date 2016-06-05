@@ -37,6 +37,18 @@ class main
 		echo json_encode($ret);
 	}
 
+	public function get(){
+		d($_GET);
+	}
+
+	public function post(){
+		d($_POST);
+	}
+
+	public function file(){
+		d($_FILES);
+	}
+
 
 
 }
